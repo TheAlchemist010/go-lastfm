@@ -2,8 +2,8 @@ package lastfm
 
 // TrackStreamableResponse is part of TrackResponse.
 type TrackStreamableResponse struct {
-	FullTrack  int `xml:"fulltrack,attr"`
-	Streamable int `xml:",chardata"`
+	FullTrack  string `xml:"fulltrack,attr"`
+	Streamable string `xml:",chardata"`
 }
 
 // TrackResponse is used where <track> tag is present
